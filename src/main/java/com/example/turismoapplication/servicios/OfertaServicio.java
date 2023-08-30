@@ -1,14 +1,16 @@
 package com.example.turismoapplication.servicios;
 
-import com.example.turismoapplication.modelos.Empresa;
+
 import com.example.turismoapplication.modelos.Oferta;
 import com.example.turismoapplication.repositorios.OfertaRepositorio;
 import com.example.turismoapplication.utiles.OfertaValidacion;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class OfertaServicio {
 
     @Autowired
